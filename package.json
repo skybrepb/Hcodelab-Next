@@ -1,0 +1,40 @@
+{
+  "name": "next2505",
+  "version": "1.0.0",
+  "description": "Projeto HCodeLab Web Professional Next.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev -p 3200",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skybrepb/hcodelab-ferrari.git"
+  },
+  "keywords": [
+    "hcode",
+    "javascript",
+    "react",
+    "nextjs",
+    "nodejs",
+    "adonisjs"
+  ],
+  "author": "Evandro Pereira Barbosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skybrepb/hcodelab-ferrari/issues"
+  },
+  "homepage": "https://github.com/skybrepb/hcodelab-ferrari#readme",
+  "devDependencies": {
+    "next": "^9.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "mysql": "^2.18.1",
+    "react-cookie": "^4.0.3"
+  }
+}
