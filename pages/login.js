@@ -1,4 +1,4 @@
-// import Header from "../components/header.js"
+import Header from "../components/header.js"
 import Footer from "../components/footer.js"
 import styles from "../components/login.module.css"
 import React, {useState} from 'react'
