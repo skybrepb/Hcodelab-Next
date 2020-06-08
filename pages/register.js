@@ -18,9 +18,10 @@ export default function Register(){
 
     const handleFormSubmit = e => {
         e.preventDefault()
+        console.log('EventoSubmit',e)
 
         //axios.post('http://localhost:3333/users', values).then( res => {
-        axios.post('https://hcodelab-next.herokuapp.com/users', values).then( res => {
+        axios.post('https://hcodelab-next.herokuapp.com/admin/users', values).then( res => {
             
              alert(`Ola ${res.data.name} seus dados cadastrados com sucesso ID: ${res.data.id}`)
              window.location.href=("/login") // Redireciona para a pagina login
