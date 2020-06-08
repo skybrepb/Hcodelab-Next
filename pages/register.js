@@ -20,7 +20,7 @@ export default function Register(){
         e.preventDefault()
 
         //axios.post('http://localhost:3333/users', values).then( res => {
-        axios.post('https://hcodelab-adonis.herokuapp.com/users', values).then( res => {
+        axios.post('https://hcodelab-next.herokuapp.com/users', values).then( res => {
             
              alert(`Ola ${res.data.name} seus dados cadastrados com sucesso ID: ${res.data.id}`)
              window.location.href=("/login") // Redireciona para a pagina login

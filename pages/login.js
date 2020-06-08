@@ -25,7 +25,7 @@ export default function Login(){
         e.preventDefault()
 
         // axios.post('https://localhost:3333/auths', values).then( (res) => {
-        axios.post('https://hcodelab-adonis.herokuapp.com/auths', values).then( (res) => {
+        axios.post('https://hcodelab-next.herokuapp.com/auths', values).then( (res) => {
             
             const tokenData = res.data.token
             cookies.set('token', tokenData)          

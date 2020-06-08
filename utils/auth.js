@@ -3,7 +3,7 @@ import Router from 'next/router'
 import { Cookies } from 'react-cookie'
 
 const cookies = new Cookies()
-const serverUrl = 'http:localhost:3333'
+const serverUrl = 'https://hcodelab-next.herokuapp.com'
 
 export async function handleAuthSSR(ctx) {
     let token = null
